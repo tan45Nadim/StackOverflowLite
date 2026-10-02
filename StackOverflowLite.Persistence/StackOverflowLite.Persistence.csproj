@@ -10,4 +10,10 @@
     <ProjectReference Include="..\StackOverflowLite.Domain\StackOverflowLite.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+    <Folder Include="Configurations\" />
+    <Folder Include="Context\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
 </Project>

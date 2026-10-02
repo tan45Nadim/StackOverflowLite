@@ -11,4 +11,11 @@
     <ProjectReference Include="..\StackOverflowLite.Domain\StackOverflowLite.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Identity\" />
+    <Folder Include="Caching\" />
+    <Folder Include="Authentication\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
