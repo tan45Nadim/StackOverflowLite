@@ -1,4 +1,6 @@
+using StackOverflowLite.Application;
 using StackOverflowLite.Persistence;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +9,9 @@ builder.Services.AddControllers();
 
 // Add API explorer for Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
+
+// Add Application
+builder.Services.AddApplication();
 
 // Add Persistence
 builder.Services.AddPersistence(builder.Configuration);
